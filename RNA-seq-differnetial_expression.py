@@ -94,7 +94,7 @@ for index in range(0,int(len(control)/2)):
     os.system(commandline)
 
 a=0
-for index in range(3,int(len(control)/2)):
+for index in range(0,int(len(control)/2)):
     commandline=tophatpath+'tophat2 -p 8 -o Treatmentout_index'+str(index+1)+' ref_genome '+treatment[a]+' '+treatment[a+1]
     a=a+2
     #print(commandline)
@@ -113,7 +113,7 @@ for index in range(0,int(len(control)/2)):
     os.system(commandline)
 
 a=0
-for index in range(3,int(len(control)/2)):
+for index in range(0,int(len(control)/2)):
     commandline=tophatpath+'tophat2 -p 8 -o Treatmentout_trim_index'+str(index+1)+' ref_genome '+treatment[a]+'_p.fq.gz '+treatment[a+1]+'_p.fq.gz'
     a=a+2
     #print(commandline)
