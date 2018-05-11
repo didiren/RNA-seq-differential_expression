@@ -1,8 +1,4 @@
-#Di Ren
-#CSE 6613
-#Nov-25-2016
-#Final project
-#Using pipeline to create a control file to run a series of codes.
+
 import os
 import sys
 #First obtain all input files and the path to using the softwares in Input.txt file so it is easier than I aske you to input one by one.
