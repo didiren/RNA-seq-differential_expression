@@ -1,8 +1,8 @@
-#Note: For using this pipeline, you need have a basic skill to install all softwares it required or have a server having all them installed for you. Meanwhile, a little bit of skill of editing python scripts and R scripts is helpful too.
+#Note: For using this pipeline, you need have the basic skill to install all softwares it required or have a server having all of them installed for you. Meanwhile, a little bit of skill of editing python scripts and R scripts is helpful too.
 
 # RNA-seq-differential_expression pipeline
 #Prepare a text file (parameters.txt) with the RNA-seq files names one per each line as well as the paired end files are next to each other.
-Here is the example attached that you can download and edit based on your projects:
+Here is a example parameters.txt file attached that you can download and edit based on your projects:
 
 #This parameters.txt file, the RNA-seq-differential_expression.py file as well as the RNA-seq raw reads files should be in the same directory (one folder).
 #The command for your to run. Please open the RNA-seq-differential_expression.py and edit it following the instruction in file if you don't need to use trimming process.
