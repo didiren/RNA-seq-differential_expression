@@ -26,7 +26,7 @@ Here is the example attached that you can download and edit based on your projec
 
 # blastp -num_threads 8 -query your.organims.protein.fa -outfomt 6 -max_target_seqs 1 -db mydb -out twoorganims_idlink
 
-#Now with a twoorganims_idlink.txt file the first columns are your ID conversion source.
+#Now with a twoorganims_idlink.txt file the first and second columns are your ID conversion source.
 
 #With a normalized_combined_file.txt generated from the DESeq.R, its a table with your organism ID with the expression level from each sample.
 
