@@ -17,9 +17,7 @@
 
 #All txt file should be moved to a new foler that will be set as the working directory for running the R script, DESeq2.R (attached here too).
 
-#You can run the R scirpt in LINUX without R studio by using the command:
-
-# Rscript DESeq.R
+#You can run the R scirpt in LINUX without R studio by using the command:Rscript DESeq.R
 
 #Or you can download DESeq.R file and open it to run in R studio.
 
@@ -28,7 +26,7 @@
 
 #If you don't like my case, BLASTp is  step here to convert the ID to the ID system compatible in KEGG.The command you might need to use:
 
-# makeblastdb -in your_KEGG_most_related_organism_proteom.fsa -parse_seqids -dbtype prot -out mydb
+# makeblastdb -in your_KEGG_most_related_organism_proteom.fa -parse_seqids -dbtype prot -out mydb
 
 # blastp -num_threads 8 -query your.organims.protein.fa -outfomt 6 -max_target_seqs 1 -db mydb -out twoorganims_idlink
 
